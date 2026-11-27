@@ -23,7 +23,9 @@ Write the Ledger-owner part of the project against SRS v1.1: schema migration, m
 - Coverage (NFR-18) could not be measured locally without pytest-cov; left to CI.
 
 ## What a human reviewed and changed
-- To fill in by Vishudha after reviewing the PR: what you read line by line, what you changed, and anything you could not explain yet.
+- Ran the full test suite on my Windows laptop (Python 3.12): 106 passed.
+- Moved the project into my SE folder; no code changes.
+- Line-by-line review of app/ledger/service.py and docs/design/ledger-core.md still pending; to do before the demo.
 
 ## Links
 - PR: (fill in)
