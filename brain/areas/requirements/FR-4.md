@@ -14,12 +14,13 @@ author: GouravN97
 Ledger records cannot be updated or deleted once written. Any corrections or cancellations must be recorded as an explicit reversal transaction.
 
 ## Trace
-- SRS section: <link>
+- SRS section: SRS v1.1 Section 4 (FR-4)
 - Issue(s): <link>
 - PR(s): <link>
-- Test(s): <path>
+- Test(s): tests/test_schema.py, tests/test_ledger_service.py (FR-4 section)
 - Skill(s): simulate-transfer
-- ADR(s): <link to docs/adr/...>
+- ADR(s): docs/adr/0002-ledger-schema.md
 
 ## Research notes
 - [[idempotency-keys]]
+- [[hash-chains]] [[double-entry-ledger]]

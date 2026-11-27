@@ -14,12 +14,13 @@ author: GouravN97
 An administrative endpoint that scans ledger entries and verifies that the sum of credits equals debits, and that current wallet balances match the calculated ledger sums.
 
 ## Trace
-- SRS section: <link>
+- SRS section: SRS v1.1 Section 4 (FR-5)
 - Issue(s): <link>
 - PR(s): <link>
-- Test(s): <path>
+- Test(s): tests/test_reconciliation.py
 - Skill(s): simulate-transfer
-- ADR(s): <link to docs/adr/...>
+- ADR(s): docs/adr/0002-ledger-schema.md
 
 ## Research notes
 - [[idempotency-keys]]
+- [[hash-chains]] [[double-entry-ledger]]
