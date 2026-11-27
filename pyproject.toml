@@ -1,0 +1,9 @@
+[project]
+name = "financial-ledger"
+version = "0.1.0"
+description = "Financial Ledger & Wallet API (CSE 303P term project)"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

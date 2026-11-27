@@ -19,6 +19,14 @@ Start here. Read AGENTS.md at the repo root for how agents and humans should use
 
 ## Research notes
 <!-- brain-refine keeps this list current -->
+- [[double-entry-ledger]]: debits, credits, the SYSTEM wallet (FR-1, FR-4, FR-5)
+- [[money-minor-units]]: why money is an integer (NFR-8, ADR 0001)
+- [[sqlite-transactions-and-locking]]: BEGIN IMMEDIATE, WAL, busy timeout (FR-3)
+- [[hash-chains]]: tamper evidence (FR-4.4, FR-5.2)
+
+## Decisions (ADRs)
+- docs/adr/0001-money-representation.md
+- docs/adr/0002-ledger-schema.md
 
 ## Stage review notes
 <!-- one link per stage, added at the end of each stage (SB-2) -->

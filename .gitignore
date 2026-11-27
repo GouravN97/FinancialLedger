@@ -4,3 +4,10 @@ brain/.obsidian/workspace-mobile.json
 brain/.obsidian/cache
 brain/.obsidian/graph.json
 brain/.trash/
+
+# Python and local databases
+__pycache__/
+.pytest_cache/
+*.db
+*.db-wal
+*.db-shm
